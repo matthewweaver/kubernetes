@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: abc-nv-search-server
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: abc-nv-search-server
+        tier: backend
+    spec:
+      containers:
+      - name: abc-nv-search-server
+        image: docker.digital.homeoffice.gov.uk/abc-bae/abc-nv-search-server:{{.IMAGE_TAG}}
+        resources:
+          requests:
+            cpu: 100m
+            memory: 100Mi
+        ports:
+        - containerPort: 8080
