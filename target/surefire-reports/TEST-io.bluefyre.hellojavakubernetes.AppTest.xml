@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="io.bluefyre.hellojavakubernetes.AppTest" time="0.001" tests="1" errors="0" skipped="0" failures="0">
+<testsuite name="io.bluefyre.hellojavakubernetes.AppTest" time="0.004" tests="1" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="java.vm.version" value="10.0.1+10"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/java-10-oracle/lib"/>
-    <property name="maven.multiModuleProjectDirectory" value="/home/matt/git/abc-nv-search-server"/>
+    <property name="maven.multiModuleProjectDirectory" value="/home/matt/Desktop/hellojavakubernetes-master"/>
     <property name="java.vm.vendor" value="&quot;Oracle Corporation&quot;"/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
@@ -15,7 +15,7 @@
     <property name="user.country" value="GB"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="user.dir" value="/home/matt/git/abc-nv-search-server"/>
+    <property name="user.dir" value="/home/matt/Desktop/hellojavakubernetes-master"/>
     <property name="java.vm.compressedOopsMode" value="Zero based"/>
     <property name="java.runtime.version" value="10.0.1+10"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
@@ -59,5 +59,5 @@
     <property name="java.vendor.version" value="18.3"/>
     <property name="sun.cpu.isalist" value=""/>
   </properties>
-  <testcase name="testApp" classname="io.bluefyre.hellojavakubernetes.AppTest" time="0.001"/>
+  <testcase name="testApp" classname="io.bluefyre.hellojavakubernetes.AppTest" time="0.004"/>
 </testsuite>

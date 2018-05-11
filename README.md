@@ -1,1 +1,5 @@
-A simple Hello World Java application built using spring boot and maven, containerised using docker and deployed on kubernetes
+# Getting started with Spring Boot and Kubernetes
+
+
+Refer installation steps here = 
+[Bluefyre](https://bluefyre.io/getting-started-springboot-kubernetes/)
